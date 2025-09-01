@@ -1,0 +1,125 @@
+/* <!-- HND/CSS/2024/0363 --> */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+}
+
+.main-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 3px solid #1a1a1a;
+  background-color: #ffffff;
+}
+
+.clear {
+  clear: both;
+}
+
+.header-box {
+  height: 80px;
+  background-color: #2c3e50;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
+
+.large-box-left {
+  float: left;
+  width: 40%;
+  height: 180px;
+  background-color: #3498db;
+  margin-right: 2%;
+  border: 2px solid black;
+}
+
+.small-box-container {
+  float: left;
+  width: 58%;
+  /* border: 2px solid black; */
+}
+
+.small-box {
+  float: left;
+  width: 31.33%;
+  height: 80px;
+  margin: 0 1% 20px 1%;
+  border: 2px solid black;
+}
+
+.small-box:nth-child(1) {
+  background-color: #9b59b6;
+}
+.small-box:nth-child(2) {
+  background-color: #1abc9c;
+}
+.small-box:nth-child(3) {
+  background-color: #f1c40f;
+}
+.small-box:nth-child(4) {
+  background-color: #34495e;
+}
+.small-box:nth-child(5) {
+  background-color: #d35400;
+}
+.small-box:nth-child(6) {
+  background-color: #c0392b;
+}
+
+.middle-row-container {
+  margin-top: 20px;
+}
+
+.medium-box {
+  float: left;
+  width: 23%;
+  height: 100px;
+  margin: 0 1%;
+  border: 2px solid black;
+}
+
+.medium-box:nth-child(1) {
+  background-color: #2ecc71;
+}
+.medium-box:nth-child(2) {
+  background-color: #8e44ad;
+}
+.medium-box:nth-child(3) {
+  background-color: #27ae60;
+}
+.medium-box:nth-child(4) {
+  background-color: #f39c12;
+}
+
+.bottom-column-left {
+  float: left;
+  width: 25%;
+  margin-top: 20px;
+  margin-right: 2%;
+}
+
+.stacked-box {
+  height: 100px;
+  border: 2px solid black;
+}
+
+.stacked-box:nth-child(1) {
+  background-color: #e67e22;
+  margin-bottom: 20px;
+}
+.stacked-box:nth-child(2) {
+  background-color: #16a085;
+}
+
+.tall-box-right {
+  float: left;
+  width: 73%;
+  height: 220px;
+  background-color: #e74c3c;
+  margin-top: 20px;
+  border: 2px solid black;
+}
+/* <!-- HND/CSS/2024/0363 --> */
